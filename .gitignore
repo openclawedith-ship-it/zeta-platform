@@ -1,4 +1,6 @@
-__pycache__/**/*.pyc
-*.db
-scans/**
-data/wordlist*
+__pycache__/
+*.pyc
+data/
+scans/
+reports/
+db/
