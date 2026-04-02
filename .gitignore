@@ -1,0 +1,26 @@
+# ZETA ∞ — .gitignore
+# Don't push generated/runtime files
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+db/
+
+# Reports (keep templates, not individual scans)
+scans/
+reports/
+
+# Temp
+*.log
+*.tmp
+.cache/
